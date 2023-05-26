@@ -1,0 +1,57 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.avisorPqrYChatbot.controller.Page1" xmlns="sap.m" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Centro de ayuda y reclamos" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="609px" top="296px">
+                        <layout:control>
+                            <Text text="Iniciar sesión" width="83.375px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="551px" top="325px">
+                        <layout:control>
+                            <Input id="sap_m_Page_0-content-sap_m_Input-1684198745606" placeholder="Correo electronico" type="Email" showValueHelp="false" enabled="true" visible="true" width="192.609375px" valueHelpOnly="false" required="true" valueStateText="Invalid entry" maxLength="99"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="616px" top="223px">
+                        <layout:control>
+                            <f:Avatar src="sap-icon://user-settings" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="553px" top="376px">
+                        <layout:control>
+                            <Input placeholder="Contraseña" type="Password" showValueHelp="false" enabled="true" visible="true" width="191.609375px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="99"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="616px" top="428px">
+                        <layout:control>
+                            <Button text="Ingresar" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="617px" top="480px">
+                        <layout:control>
+                            <Link text="Registrarse" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2023-05-15_192830.png" height="178.21875px" width="1280px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

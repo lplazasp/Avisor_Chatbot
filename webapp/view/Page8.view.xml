@@ -1,0 +1,62 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.avisorPqrYChatbot.controller.Page8" xmlns="sap.m" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Centro de ayuda y reclamos" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="837px" top="606px">
+                        <layout:control>
+                            <Button text="Send" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/header_chatbot.png" height="178.21875px" width="1280px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="401px" top="606px">
+                        <layout:control>
+                            <Input id="sap_m_Page_0-jnstetol71nic7e84hgwuuma4_S4-content-sap_m_Input-1684203591322-4zj2jn79oq7hcu4o8k9z8yrn5_S5-fiwv8mnjmqcyqfx62klzlrj27_S7" placeholder="Escribe un mensaje" type="Text" showValueHelp="false" enabled="true" visible="true" width="402px" valueHelpOnly="false" required="true" valueStateText="Invalid entry" maxLength="99"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="397px" top="325px">
+                        <layout:control>
+                            <Input value="Hola, soy EcoBot ¿En qué podría ayudarte hoy?" placeholder="Escribe un mensaje" type="Text" showValueHelp="false" enabled="true" visible="true" width="329.00000000px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="99"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="626px" top="223px">
+                        <layout:control>
+                            <Text text="Soporte de plataforma" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="527px" top="195px">
+                        <layout:control>
+                            <f:Avatar src="sap-icon://action-settings" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="317px" top="312px">
+                        <layout:control>
+                            <f:Avatar src="sap-icon://user-settings" initials="" displayShape="Square" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="655px" top="680px">
+                        <layout:control>
+                            <Link text="Salir" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false" press="_onLinkPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

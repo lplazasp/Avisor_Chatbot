@@ -1,0 +1,77 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.avisorPqrYChatbot.controller.Page2" xmlns="sap.m" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2023-05-15_192830.png" height="178.21875px" width="1280px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="561px" top="241px">
+                        <layout:control>
+                            <Text text="¿En qué te podemos ayudar?" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="381px" top="406px">
+                        <layout:control>
+                            <Text text="Asesoria comercial" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="357px" top="439px">
+                        <layout:control>
+                            <Text text="¿Tu solicitud es comercial?" width="169.765625px" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="790px" top="428px">
+                        <layout:control>
+                            <Text text="¿Inconvenientes con la platafora de pago ecollect?" width="151.21875px" maxLines="3" wrapping="true" textAlign="Center" textDirection="Inherit" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="786px" top="402px">
+                        <layout:control>
+                            <Text text="Soporte con la plataforma" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="833px" top="320px">
+                        <layout:control>
+                            <f:Avatar src="sap-icon://action-settings" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="405px" top="320px">
+                        <layout:control>
+                            <f:Avatar src="sap-icon://cart-approval" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="402px" top="501px">
+                        <layout:control>
+                            <Button text="Ingresar" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="6px" top="4px">
+                        <layout:control>
+                            <Button text="volver" type="Back" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="832px" top="499px">
+                        <layout:control>
+                            <Button text="Ingresar" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress2"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
